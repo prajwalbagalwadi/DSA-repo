@@ -1,0 +1,74 @@
+# Split and Sum Odd-Even Digits of a Number
+
+## Description
+
+This C program splits the digits of a given number and calculates the sum of odd and even digits separately. It also generates a final result by concatenating the digits in reverse order.
+
+### Features:
+- **Input**: A number entered by the user.
+- **Odd-Even Calculation**: The program sums the even and odd digits of the number.
+- **Reversed Number**: The program generates a number by concatenating the digits in reverse order.
+- **Output**: 
+  - The sum of the odd digits.
+  - The sum of the even digits.
+  - The reversed number obtained by concatenating digits in reverse.
+
+---
+
+## Program Flow
+
+1. **Input the Number**: The user is prompted to input a number.
+2. **Digit Splitting**: The program processes the digits of the number one by one.
+3. **Odd and Even Digit Classification**: 
+   - If a digit is even, it is added to the `even_number` variable.
+   - If a digit is odd, it is added to the `odd_number` variable.
+4. **Reversed Number**: As digits are processed, they are concatenated in reverse order to form a number.
+5. **Output Results**: The sum of the odd digits, the sum of the even digits, and the reversed number are displayed.
+
+---
+
+## Code Explanation
+
+- The user is first asked to enter a number.
+- The program iterates through each digit of the number using the modulo (`%`) and division (`/`) operations.
+- The last digit is extracted by taking `num % 10`, and the number is reduced by dividing it by 10 (`num = num / 10`).
+- The program checks if the extracted digit is even or odd, and updates the respective sum variable.
+- It keeps constructing the reversed number during the process.
+- Finally, the results are printed: the sum of odd digits, the sum of even digits, and the reversed number.
+
+---
+
+## Example
+
+### Input:
+
+```
+Enter the number: 1234
+```
+
+### Output:
+
+```
+Odd Number Result = 4
+Even Number Result = 6
+Reversed Number: 4321
+```
+
+### Explanation:
+
+- **Odd Digits**: 1, 3 → Sum: 4
+- **Even Digits**: 2, 4 → Sum: 6
+- **Reversed Number**: 4321
+
+
+## Contributions
+
+Feel free to contribute to this project by:
+- Reporting issues
+- Adding features or improvements
+- Fixing bugs
+
+
+
+
+
