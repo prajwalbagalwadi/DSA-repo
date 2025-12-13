@@ -20,11 +20,14 @@ where the n is the  number of element in array or size of array
 
 
 // JAI SHREE RAM
+
 #include <stdio.h>
+// Function to find max out of two valve 
 int max(int a,int b)
 {
     return (a>b)?a:b;
 }
+// Implementation of Kadanens alogorthim 
 int kadanens_algo(int arr[],int size)
 {
     int max_sum=0; int curr_sum=0;
@@ -45,7 +48,7 @@ int kadanens_algo(int arr[],int size)
 
 }
 
-
+// main function 
 int main()
 {
     
@@ -59,3 +62,4 @@ int main()
     return 0;
 
 }
+
