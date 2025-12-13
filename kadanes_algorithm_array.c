@@ -4,7 +4,21 @@
                 Code, Compile, Run and Debug C program online.
 Write your code in this editor and press "Run" button to compile and execute it.
 
-*******************************************************************************/
+/*******************************************************************************/
+/*
+This is kadanens_algorthim for sum of sub array so
+
+
+NOTE: To find Total number of sub array follow this fromual 
+
+n*(n+1)/2
+where the n is the  number of element in array or size of array 
+
+
+  */
+
+
+
 // JAI SHREE RAM
 #include <stdio.h>
 int max(int a,int b)
@@ -43,4 +57,5 @@ int main()
     printf(" %d=kadanens_algo max sum",res);
 
     return 0;
+
 }
