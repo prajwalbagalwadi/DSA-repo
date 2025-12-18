@@ -1,8 +1,6 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+    This program is to find the pair of sum to match the traget value with two pointer approch 
 
 *******************************************************************************/
 // JAI SHREE RAM
@@ -52,4 +50,5 @@ int main()
     int res=pair_sum(arr,n,traget);
     // printf("%d",res);
     return 0;
+
 }
