@@ -1,13 +1,15 @@
 /******************************************************************************
 
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
+   To find the target valve with adding two elements and 
+   making the pair and getting equall to traget valve
 
 *******************************************************************************/
 // JAI SHREE RAM 
 #include <stdio.h>
-
+//function for pair sum 
+// param1 array 
+// param2 size 
+// param3 target vaule to find 
 int pair_sum(int arr[],int size,int target)
 
 {
@@ -30,12 +32,6 @@ int pair_sum(int arr[],int size,int target)
     
 }
 
-
-
-
-
-
-
 int main()
 {
     printf("JAI SHREE RAM\n");
@@ -45,4 +41,5 @@ int main()
     int res=pair_sum(arr,n,traget);
    // printf("%d",res);
     return 0;
+
 }
