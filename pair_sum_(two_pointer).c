@@ -39,7 +39,7 @@ int  pair_sum(int arr[],int size, int traget)
 
 
 
-
+// main function 
 
 int main()
 {
@@ -52,3 +52,4 @@ int main()
     return 0;
 
 }
+
