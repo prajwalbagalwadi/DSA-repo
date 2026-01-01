@@ -50,7 +50,7 @@ int Binary_search(int array[],int size, int element)
     
     while(low<=high)
     {
-        int mid=(low+high)/2; 
+        int mid=low+(high-low)/2; 
         if(array[mid]==element)
         {return mid;}
             //return printf("element %d at index %d",mid,array[]);}
